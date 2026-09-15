@@ -1,0 +1,6 @@
+ImageGen integrado.
+
+Precise photo replacement only on supplied finished carousel final page (image1). Preserve ALL existing text exactly, same typography, title upper right, numbers 03/04, body copy, CTA, sand background and entire half-board along LEFT edge at exact pixel position and scale for panorama continuity. Do not redesign or change any words.
+Replace upper small rectangular photo (currently repeated striped board) with image2: actual colorful board lineup in shop. Crop to show diverse aqua/purple/white boards, avoiding focus on yellow/red striped board. Preserve authentic board designs and branding.
+Replace lower small rectangular photo (currently Beto working, repeated from prior slide) with image3: actual smiling adult man holding white Ripwave board in shop. Crop to include his complete face, torso and prominent board logo. Preserve exact identity, face and expression, natural photo lighting, do not invent new person. Adapt crop within same rectangular frame, no expansion into text.
+Only these two photo rectangles change. All surrounding elements remain unchanged, no text alteration, no extra logos, no phone. Ensure professional image clarity and exact 4:5 portrait composition.

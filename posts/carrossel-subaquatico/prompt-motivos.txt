@@ -1,0 +1,25 @@
+ImageGen integrado.
+
+Create ONE polished Instagram carousel editorial page, portrait 4:5. A clean graphic layout on a SOLID WARM LIGHT SAND background, NOT a full-bleed background photo. Match the Ripwave carousel's bold condensed grotesk typography and restrained amber/deep petroleum teal palette. Premium modern surf magazine collage, organized readable dynamic composition, ample negative space.
+Input1 actual white Ripwave surfboard: extract the board precisely from its beige backdrop and use as large vertical cutout along RIGHT edge, nose up, occupying right 25-28% canvas and 80% height. Some right edge of board can be cropped by canvas, forming visual margin. Preserve product geometry, logo and black tail stripes. Never overlap copy.
+Input2 authentic Beto working photo and input3 colorful board photo: use as TWO SMALL editorial cropped photo inserts between the text groups in middle-left area. One small horizontal closeup of hands at work, one smaller detail of striped resin surface. Crisp rectangular crops with only subtle slight rotation 2 degrees maximum, no faux polaroids, tape or stickers. Small photos should support rather than dominate.
+Input4 is original Ripwave logo emblem: faithful small petroleum teal monochrome at upper left or bottom left, no redraw into other brand.
+CONTENT exact, spell Portuguese correctly:
+Headline at top-left, bold condensed uppercase petroleum teal, wrap in compact 3 lines within LEFT 72%:
+"MAIS MOTIVOS PRA SUA"
+"PRÓXIMA SER"
+"RIPWAVE."
+RIPWAVE. amber. Below headline three clean vertically organized numbered blocks, strong hierarchy, amber numbers 01 02 03 at left, short bold teal titles and smaller readable dark teal descriptions. Photos nest into spare spaces to right of text blocks but do not obscure anything. Layout title ~top 22%, reasons distributed remaining area with generous gaps.
+Block 1:
+"01"
+"DIRETO DE QUEM FAZ."
+"Produção própria, aqui em Santos."
+Block 2:
+"02"
+"PERSONALIZAÇÃO COM A SUA CARA."
+"Cores e arte para deixar a prancha do seu jeito."
+Block 3:
+"03"
+"UMA CONVERSA ANTES DA ENCOMENDA."
+"Conte o que você busca na próxima prancha."
+Readable body size at least visually 28px on 1080-wide canvas, natural wrapping within column; use enough line spacing, don't shrink long headings to tiny type. Motifs minimal: only numbers, text, two small photo crops, large right board and small brand. No phone, no CTA, no extra text, no photo background, no ornamental waves, no excessive collage overlaps. Professional optical alignment and balanced negative space, 6% safe left/top/bottom margins. It is a matching informational page between Beto slide and final CTA slide.

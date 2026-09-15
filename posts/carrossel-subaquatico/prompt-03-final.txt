@@ -1,0 +1,17 @@
+ImageGen integrado.
+
+Create the FINAL slide of a continuous Instagram carousel, portrait 4:5, matching the supplied previous page. IMPORTANT PANORAMA SEAM: the reference shows the LEFT longitudinal half of an aqua surfboard at its RIGHT edge. This new page must show the complementary RIGHT longitudinal half at its LEFT edge. Place board center wood stringer precisely on x=0 of new image. The board's rounded nose starts at the identical vertical level as source (~1.5% height), tail at identical ~98% height, width of half-board about 18% canvas. Show aqua right half-deck and cream right rail extending inward from left edge, matching scale, light, reflection, contour and beige background exactly. Black Ripwave board logo continues across seam correctly: only right-side remainder of logo on new board half, not a duplicated whole logo. This is continuation of SAME board, not mirrored duplicate. No new full board. Make transition as seamless as possible.
+Rest of page right 76% is warm sand neutral background. Mirror previous layout's editorial balance: headline at UPPER RIGHT, aligned right, same huge condensed deep petroleum teal type and amber. Exact:
+"JÁ PEDIU A SUA?"
+"VEM SER"
+"RIPWAVE"
+Last line amber. Keep 6% right margin, spacious refined typography. Under headline two numbered reason blocks aligned on the right half, with amber large 03 and 04, petroleum condensed bold titles, readable regular body. Exact content:
+"03"
+"PERSONALIZADA COM A SUA CARA."
+"Das cores à arte, você escolhe como quer ver sua próxima Ripwave."
+"04"
+"DIRETO DE QUEM FAZ."
+"Converse com a fábrica, conte o que procura e tire suas dúvidas antes de encomendar."
+At bottom right small clean final CTA, exact:
+"Chama no WhatsApp pelo link da bio."
+Keep same hierarchy, body size, row spacing as previous page. Two small rectangular photo crops in middle area between half-board and right text: upper photo a close detail of colorful red blue yellow board from reference; lower photo Beto working from reference. Preserve actual imagery and identity, photo sizes secondary, no text collisions. Main text may wrap comfortably. No footer logo, no phone number, no icons, no added benefits or unsupported technical promises. Only image collage, half-board, 2 reasons and title. Preserve natural warm sand background, understated design, professional clean composition and generous whitespace. Match source aspect and dimensions and vertical board positioning precisely for swipe continuity.

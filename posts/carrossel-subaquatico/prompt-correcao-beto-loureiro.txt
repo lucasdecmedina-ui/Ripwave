@@ -1,0 +1,7 @@
+ImageGen integrado.
+
+Precise text correction ONLY to supplied finished carousel page. Preserve absolutely all layout, typography, sand background, amber and teal colors, photos and people, half aqua board at right, cropping and all remaining content.
+In item 01 change heading from "QUEM FAZ TEM NOME: BETO." to exact "QUEM FAZ TEM NOME:\nBETO LOUREIRO." Use same condensed bold font; two lines if necessary to fit existing left text column without collision with photo.
+Change item 01 body to exact:
+"Sua Ripwave é feita pelo Beto Loureiro, aqui em Santos. Uma prancha com a assinatura de quem vive a produção de perto."
+Wrap naturally, preserve readable body size. Make only minimal local spacing adjustments within item 01 to accommodate full name; do not overlap photo or item02. All other words and elements must remain identical. In particular maintain board at precise right-edge position and scale for panorama continuation. Keep exact original dimensions/aspect ratio. No extra edits.
