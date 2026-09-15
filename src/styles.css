@@ -1,0 +1,183 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Ripwave Surfboards design system.
+ * Ocean navy + deep sea blue + off-white, vibrant red accent, sunset details.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --color-ocean: var(--ocean);
+  --color-sea: var(--sea);
+  --color-sand: var(--sand);
+  --color-sunset: var(--sunset);
+  --font-display: "Owners XWide", "Arial Black", sans-serif;
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Kaushan Script", cursive;
+}
+
+:root {
+  --radius: 0.25rem;
+
+  --navy: oklch(0.21 0.062 260);
+  --ocean: oklch(0.34 0.093 246);
+  --sea: oklch(0.55 0.12 226);
+  --sand: oklch(0.97 0.008 90);
+  --sunset: oklch(0.74 0.155 55);
+
+  --background: oklch(0.98 0.006 90);
+  --foreground: oklch(0.21 0.062 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.21 0.062 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.21 0.062 260);
+  --primary: oklch(0.56 0.219 22);
+  --primary-foreground: oklch(0.99 0.005 90);
+  --secondary: oklch(0.21 0.062 260);
+  --secondary-foreground: oklch(0.98 0.006 90);
+  --muted: oklch(0.94 0.01 240);
+  --muted-foreground: oklch(0.5 0.03 250);
+  --accent: oklch(0.55 0.12 226);
+  --accent-foreground: oklch(0.99 0.005 90);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.89 0.014 250);
+  --input: oklch(0.89 0.014 250);
+  --ring: oklch(0.56 0.219 22);
+
+  --gradient-deep: linear-gradient(180deg, var(--navy), var(--ocean));
+  --gradient-sunset: linear-gradient(90deg, var(--primary), var(--sunset));
+  --shadow-deep: 0 24px 60px -24px color-mix(in oklab, var(--navy) 55%, transparent);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+}
+
+@utility script {
+  font-family: var(--font-script);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+@utility surface-deep {
+  background: var(--gradient-deep);
+  color: var(--sand);
+}
+
+@utility reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility card-lift {
+  transition:
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-deep);
+  }
+}
+
+@keyframes wave-drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility wave-drift {
+  animation: wave-drift 24s linear infinite;
+}
+
+@utility catalog-hero {
+  background-image:
+    linear-gradient(135deg, color-mix(in oklab, var(--ocean) 45%, transparent), transparent 45%),
+    repeating-radial-gradient(
+      circle at 115% -15%,
+      transparent 0 2.1rem,
+      color-mix(in oklab, var(--sand) 12%, transparent) 2.2rem 2.3rem
+    );
+}
+
+@utility catalog-orb {
+  border: 1px solid color-mix(in oklab, var(--sand) 18%, transparent);
+  box-shadow:
+    inset 0 0 0 2.5rem color-mix(in oklab, var(--ocean) 35%, transparent),
+    inset 0 0 0 5rem color-mix(in oklab, var(--sea) 16%, transparent);
+}
+
+@utility model-graphic {
+  background:
+    radial-gradient(
+      circle at calc(20% + (var(--model-index) * 3%)) 75%,
+      color-mix(in oklab, var(--sea) 55%, transparent) 0 18%,
+      transparent 18.5%
+    ),
+    linear-gradient(140deg, var(--navy), var(--ocean));
+}
